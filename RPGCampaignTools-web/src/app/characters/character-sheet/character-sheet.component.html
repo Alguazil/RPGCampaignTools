@@ -1,0 +1,24 @@
+<div class="row section-title mdb-color mb-4">
+  <span class="pl-2">Identité</span>
+</div>
+<div class="row md-form ">
+  <div class="col-3">
+      <input placeholder="Aranwë" type="text" id="character-name" mdbActive>
+      <label for="character-name">Nom de Personnage</label>
+  </div>
+  <div class="col-3">
+      <mdb-select [options]="iconsSelect" id="classe" placeholder="Classe" mdbActive></mdb-select>
+      <label for="classe">Classe</label>
+  </div>
+  <div class="col-3">
+    <div class="switch">
+      <label>
+        <i class="fa fa-female" aria-hidden="true"></i>
+        <input type="checkbox" checked="checked">
+        <span class="lever"></span>
+        <i class="fa fa-male" aria-hidden="true"></i>
+      </label>
+    </div>
+  </div>
+  <div class="col-3"></div>
+</div>

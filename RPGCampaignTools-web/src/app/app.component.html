@@ -1,19 +1,7 @@
-<header>
-  <app-navbar></app-navbar>
-</header>
-<body>
-  <div class="container">
-    <div class="row justify-content-md-center">
-      <div class="col-1" style="background-color: aquamarine">
-        <p>1 of 3</p>
-      </div>
-      <div class="col-10">
-        <router-outlet></router-outlet>
-      </div>
-      <div class="col-1" style="background-color: aquamarine">
-        <p>1 of 3</p>
-      </div>
-    </div>
-  </div>
+<div style="min-height: 3em;">
+    <app-navbar></app-navbar>
+</div>
+    <div class="main container">
+    <router-outlet></router-outlet>
+</div>
 
-</body>

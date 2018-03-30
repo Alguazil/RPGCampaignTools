@@ -1,0 +1,9 @@
+.section-title{
+  border-radius: 5px ;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+}
+.switch.primary-switch label input[type=checkbox]:not(:checked) + .lever {
+  background-color: #689DF6;
+}
